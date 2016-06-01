@@ -1,0 +1,100 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+#title {
+    font-family: "幼圆";
+    text-align: center;
+    margin: 20px auto;
+    font-size: 35px;
+    color: #0085B2;
+}
+
+.movie {
+    line-height: 25px;
+    padding: 20px;
+    color: white;
+    background-color: #0085B2;
+}
+
+.infomovie {
+    color: #0085B2;
+    line-height: 30px;
+    height: 30px;
+    margin-left: 10px;
+    padding: 5px;
+    cursor: pointer;
+    -moz-user-select: none;
+}
+
+.chang {
+    color: #0085B2;
+    padding: 5px;
+    padding-bottom: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+
+#allshow {
+	    border: 1px solid white;
+    display: none;
+    background-color: #0085B2;
+    margin: 20px;
+    position: fixed;
+    color: white;
+    padding: 40px 60px;
+    left: 40px;
+    top: 40px;
+    background-color: #0085B2;
+}
+
+#confirm {
+	font-size:18px;
+    border: 1px solid white;
+    background-color: #0085B2;
+    position: fixed;
+    left: 40px;
+    top: 40px;
+    width: 350px;
+    height: 250px;
+    display: none; padding:15px;
+    color:white;
+}
+
+#confirm>span {
+    color: white;
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    cursor: pointer;
+    -moz-user-select: none;
+
+}
+
+#allshow>div {
+    line-height: 30px;
+    text-align: center;
+}
+
+#allshow>span {
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    margin: 10px 35px;
+    color: #0085B2;
+    cursor: pointer;
+    -moz-user-select: none;
+}
+
+.ticket1,.ticket2 {
+	text-align:center;
+	width:50px;
+	font-size:15px;
+	background-color:#0085B2;
+	color:white;
+    cursor: pointer;
+    -moz-user-select: none;
+}
